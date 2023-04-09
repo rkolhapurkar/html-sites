@@ -1,0 +1,218 @@
+/* page csss */
+
+
+header {
+	background-color: transparent;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 99;
+}	
+.navbar {
+	margin: 18px 16px;
+	padding: 25px 30px;
+}
+.top-button-link {
+	border: 1px solid #333;
+	border-radius: 0px;
+	display: flex;
+	padding: 8px 15px;
+	font-size: 16px;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+}
+.material-icons {
+	padding: 0 5px;			
+}	
+
+/* Navigation */
+
+ul.navbar-nav li.nav-item a {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #000000 !important;
+}
+.navbar-toggler {
+	background: #F9F4EE;
+	padding: 18px 18px;
+	border-radius: 0;
+	border: 0;
+}
+
+/* Slider CSS */
+
+#slider .banner-figcaption {
+	position: relative;
+}
+#slider .banner-figcaption {
+	position: absolute;
+	top: 45.8%;
+	left: 0;
+	width: 100%;
+	text-align: left;
+	font-weight: bold;
+	color: white;
+	transform: translate(10%,-50%);
+}
+h2.banner-subtitle {
+	color: #EEF4F9;
+	font-family: 'Work Sans', sans-serif;
+	text-transform: capitalize;
+	font-size: 16px;
+	line-height: 24px;
+}
+h1.banner-title {
+	color: #EEF4F9;
+	font-family: 'Work Sans', sans-serif;
+	text-transform: capitalize;
+	font-size: 64px;
+	line-height: 64px;
+	font-weight: 400;
+}
+.break-line {
+	display: block;
+}
+#bx-pager {
+	text-align: left;
+	margin: 0 auto;
+	position: absolute;
+	bottom: -21%;
+	left: 9%;
+}
+#bx-pager a {
+	margin: 0 3px;
+	padding: 5px 5px 5px;
+	background: transparent;
+	border: 1px solid #EEF4F9;
+}
+#bx-pager a img {
+	padding: 3px;
+	border: 0 solid #ccc 1px
+}
+
+#bx-pager a.active img {
+	border: 0 solid #5280DD 1px;
+}
+.bx-wrapper {
+	border: 0px solid #fff !important;
+	background: #fff !important;
+	max-width: 100% !important;
+	box-shadow: none !important;
+}
+#bx-pager a {
+	display:none;
+}
+#bx-pager a.active {
+	display:block;
+}
+
+/* Main content block css */
+
+.product-content-block {
+	padding: 20px 0 70px;
+}
+h1.heading-h1 {
+	font-family: 'Work Sans', sans-serif;
+	color: #000;
+	font-weight: 400;
+	font-size: 56px;
+	line-height: 72px;
+}
+.product-content-block p {
+	color: #7A7777;
+	font-size: 24px;
+	line-height: 28.15px;
+	font-weight: 400;
+	font-family: 'Work Sans', sans-serif;
+}	
+		
+/* product slider css */
+
+.main-product {
+  width:100%;
+  display:block;
+  margin:0 auto;
+}
+.slick-next, .slick-prev {
+	display:none !important;
+}
+.slick-slide img {
+	display: block;
+	width: 300px;
+	margin: 0 58px;
+}
+.slick-track {
+	height:580px;
+	padding: 40px 0 0;
+	
+}
+.image-block {
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+h3.item-title {
+	font-size: 24px;
+	font-family: 'Work Sans', sans-serif;
+	color: #000;
+	font-weight: 500;
+	padding: 14px 0 0px;
+}
+@media only screen and (max-width: 940px) {
+	
+}
+@media only screen and (max-width: 768px) {
+	
+	h1.banner-title {
+		font-size: 46px;
+		line-height: 46px;
+	}
+	#bx-pager {
+		bottom:-40%;
+		left: 9%;
+	}
+	.bxslider li figure img {
+		content: url('../images/slide-1-mobile.jpg');
+	}
+	.slick-slide img {
+		display: block;
+		width: 318px;
+		margin: 0 auto;
+	}
+}
+@media only screen and (max-width: 480px) {
+	
+	h1.banner-title {
+		font-size: 36px;
+		line-height: 36px;
+	}
+	#bx-pager {
+		bottom:-10%;
+		left: 9%;
+	}
+	
+}
+@media only screen and (max-width: 375px) {
+	
+	h1.banner-title {
+		font-size: 28px;
+		line-height: 28px;
+	}
+	#bx-pager {
+		bottom:10%;
+		left: 9%;
+	}
+	.slick-slide img {
+		display: block;
+		width: 250px;
+		margin: 0 auto;
+	}
+	
+}
+		
